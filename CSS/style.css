@@ -1,0 +1,42 @@
+h3 ,p {
+    font-family: "Oswald", sans-serif;
+
+}
+.caption{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 10px;
+    
+    
+}
+.lightBoxContainer{
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.lightBoxContent{
+
+width: 40%;
+height: 70vh;
+background-image: url(../1.jpg);
+background-position: center;
+background-size: cover;
+align-items: center;
+position: relative;
+cursor: pointer;
+}
+
+#closeBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+i{
+    cursor: pointer;
+}
